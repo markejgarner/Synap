@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: "Georgia", serif;
+
+  --color-art-bg: #0D0D0D;
+  --color-art-ink: #F2F2F2;
+  --color-art-accent: #D9FD52;
+  --color-art-muted: rgba(242, 242, 242, 0.4);
+  --color-art-border: rgba(242, 242, 242, 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-art-bg text-art-ink font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-normal;
+  }
+
+  .serif-italic {
+    @apply font-serif italic;
+  }
+}
