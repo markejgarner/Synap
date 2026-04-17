@@ -18,7 +18,7 @@ export default function Waitlist() {
             <span className="serif-italic text-art-accent">future earlier</span>.
           </h2>
           <p className="text-xl text-art-muted mb-16 max-w-2xl mx-auto leading-relaxed font-light">
-            Join the waitlist for Synapse. We're launching early access to 500 families who want to move from guesswork to neuroscience.
+            Join the waitlist for LittleCortex. We're launching early access to 500 families who want to move from guesswork to neuroscience.
           </p>
 
           <div className="flex flex-col items-center gap-12">

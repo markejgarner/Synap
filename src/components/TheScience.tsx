@@ -20,7 +20,7 @@ export default function TheScience() {
               Your child's brain is a work in progress. The prefrontal cortex — responsible for emotional regulation and impulse control — doesn't fully mature until the mid-twenties.
             </p>
             <p>
-              Synapse uses this reality as a roadmap. We don't just give you "tips"; we give you a biological understanding of why your child is behaving a certain way, and how your response can literally shape their neural pathways.
+              LittleCortex uses this reality as a roadmap. We don't just give you "tips"; we give you a biological understanding of why your child is behaving a certain way, and how your response can literally shape their neural pathways.
             </p>
           </div>
           
@@ -28,7 +28,7 @@ export default function TheScience() {
             <div className="absolute top-0 right-0 w-12 h-[1px] bg-art-accent" />
             <Quote className="w-10 h-10 text-art-accent/20 mb-6" />
             <p className="text-2xl serif-italic text-art-ink mb-8 leading-relaxed">
-              "Dopamine regulation in children ages 8–12 responds to structured daily reward cycles. Synapse translates this complex neurobiology into a simple family ritual."
+              "Dopamine regulation in children ages 8–12 responds to structured daily reward cycles. LittleCortex translates this complex neurobiology into a simple family ritual."
             </p>
             <div className="flex items-center gap-6">
               <div className="w-12 h-12 rounded-full border border-art-border" />

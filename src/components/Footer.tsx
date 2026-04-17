@@ -5,8 +5,9 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-24">
           <div className="col-span-2">
             <div className="flex items-center gap-4 mb-8">
-              <div className="brand-vertical text-xl font-serif italic uppercase tracking-[0.2em] border-r border-art-border pr-4 h-10 flex items-center">
-                Synapse
+              <div className="flex flex-col items-start leading-[0.8] border-r border-art-border pr-6">
+                <span className="text-[10px] uppercase tracking-[0.4em] text-art-accent font-bold mb-1">Little</span>
+                <span className="text-xl font-serif italic uppercase tracking-[0.1em] text-art-ink">Cortex</span>
               </div>
             </div>
             <p className="text-art-muted max-w-sm leading-relaxed font-light">
@@ -34,7 +35,7 @@ export default function Footer() {
         </div>
         
         <div className="pt-12 border-t border-art-border flex flex-col md:flex-row justify-between items-center gap-8">
-          <p className="text-[10px] uppercase tracking-[0.2em] text-art-muted">© 2026 Synapse / Curator</p>
+          <p className="text-[10px] uppercase tracking-[0.2em] text-art-muted">© 2026 LittleCortex / Curator</p>
           <div className="flex gap-12 text-[10px] uppercase tracking-[0.2em] font-semibold text-art-muted">
             <a href="#" className="hover:text-art-accent transition-colors">Twitter</a>
             <a href="#" className="hover:text-art-accent transition-colors">Instagram</a>

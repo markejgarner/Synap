@@ -17,7 +17,7 @@ export default function Hero() {
             Raise your child with <span className="serif-italic">science</span>.
           </h1>
           <p className="text-lg lg:text-xl text-art-muted mb-12 leading-relaxed max-w-xl font-light">
-            Synapse delivers neuroscience-backed micro-lessons for parents and children together — and an accountability mechanic that turns insight into real behaviour change.
+            LittleCortex delivers neuroscience-backed micro-lessons for parents and children together — and an accountability mechanic that turns insight into real behaviour change.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-8 items-start sm:items-center mb-16">
