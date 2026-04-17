@@ -1,0 +1,6 @@
+name = "little-cortex"
+compatibility_date = "2024-04-17"
+
+[assets]
+directory = "./dist"
+binding = "ASSETS"
