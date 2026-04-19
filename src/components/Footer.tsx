@@ -1,46 +1,16 @@
 export default function Footer() {
   return (
     <footer className="py-20 px-6 bg-art-bg border-t border-art-border">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-4 gap-12 mb-24">
-          <div className="col-span-2">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="flex flex-col items-start leading-[0.8] border-r border-art-border pr-6">
-                <span className="text-[10px] uppercase tracking-[0.4em] text-art-accent font-bold mb-1">Little</span>
-                <span className="text-xl font-serif italic uppercase tracking-[0.1em] text-art-ink">Cortex</span>
-              </div>
-            </div>
-            <p className="text-art-muted max-w-sm leading-relaxed font-light">
-              The first parenting app built on neuroscience — where parents and children learn the science of the brain together.
-            </p>
-          </div>
-          
-          <div>
-            <h4 className="text-[10px] uppercase tracking-[0.2em] font-semibold text-art-muted mb-8">Product</h4>
-            <ul className="space-y-4 text-sm serif-italic text-art-ink">
-              <li><a href="#" className="hover:text-art-accent transition-colors">The Science</a></li>
-              <li><a href="#" className="hover:text-art-accent transition-colors">How it Works</a></li>
-              <li><a href="#" className="hover:text-art-accent transition-colors">Waitlist</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-[10px] uppercase tracking-[0.2em] font-semibold text-art-muted mb-8">Company</h4>
-            <ul className="space-y-4 text-sm serif-italic text-art-ink">
-              <li><a href="#" className="hover:text-art-accent transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-art-accent transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-art-accent transition-colors">Privacy Policy</a></li>
-            </ul>
-          </div>
-        </div>
+      <div className="max-w-4xl mx-auto text-center">
+        <p className="text-[11px] uppercase tracking-[0.1em] text-art-muted leading-relaxed mb-4">
+          Little Cortex uses Apple FamilyControls — the same framework Apple built for Screen Time. Your child's phone locks at the OS level, not the app level. It can't be bypassed by deleting an app.
+        </p>
+        <p className="text-[10px] uppercase tracking-[0.2em] text-art-muted/50 font-semibold italic">
+          Built for iOS. Designed for families with children aged 8–14.
+        </p>
         
-        <div className="pt-12 border-t border-art-border flex flex-col md:flex-row justify-between items-center gap-8">
-          <p className="text-[10px] uppercase tracking-[0.2em] text-art-muted">© 2026 LittleCortex / Curator</p>
-          <div className="flex gap-12 text-[10px] uppercase tracking-[0.2em] font-semibold text-art-muted">
-            <a href="#" className="hover:text-art-accent transition-colors">Twitter</a>
-            <a href="#" className="hover:text-art-accent transition-colors">Instagram</a>
-            <a href="#" className="hover:text-art-accent transition-colors">LinkedIn</a>
-          </div>
+        <div className="mt-12 pt-8 border-t border-art-border flex justify-center gap-12 text-[10px] uppercase tracking-[0.2em] font-semibold text-art-muted/40">
+          <p>© 2026 Little Cortex</p>
         </div>
       </div>
     </footer>

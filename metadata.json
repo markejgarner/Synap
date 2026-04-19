@@ -1,6 +1,6 @@
 {
-  "name": "LittleCortex.com",
-  "description": "A neuroscience-backed parenting app where parents and children learn together, featuring device accountability and evidence-based micro-lessons.",
+  "name": "Little Cortex",
+  "description": "Little Cortex is a screen time app for families. Your child completes tasks to unlock their phone while learning how their brain works.",
   "requestFramePermissions": [],
   "majorCapabilities": []
 }

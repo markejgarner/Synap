@@ -3,31 +3,35 @@ import { Quote } from "lucide-react";
 
 export default function TheScience() {
   return (
-    <section className="py-32 px-6 bg-art-bg relative overflow-hidden border-b border-art-border">
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
+    <section className="py-20 md:py-32 px-6 bg-art-bg relative overflow-hidden border-b border-art-border">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 md:gap-20 items-center">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <p className="text-[10px] uppercase tracking-[0.3em] text-art-accent mb-6 font-semibold">The Science / Evidence</p>
-          <h2 className="text-4xl lg:text-7xl font-normal text-art-ink mb-12 leading-[1.1]">
-            Built on prefrontal cortex development and <span className="serif-italic">attachment science</span>.
+          <p className="text-[10px] uppercase tracking-[0.3em] text-art-accent mb-6 font-semibold">For Parents</p>
+          <h2 className="text-3xl sm:text-4xl lg:text-7xl font-normal text-art-ink mb-12 leading-[1.1] tracking-tight">
+            You're not just enforcing rules. <br className="hidden sm:block" />
+            <span className="serif-italic text-art-accent">You're doing something that's actually good for their brain.</span>
           </h2>
-          <div className="space-y-8 text-lg text-art-muted leading-relaxed font-light">
+          <div className="space-y-8 text-base md:text-lg text-art-muted leading-relaxed font-light">
             <p>
-              Your child's brain is a work in progress. The prefrontal cortex — responsible for emotional regulation and impulse control — doesn't fully mature until the mid-twenties.
+              The prefrontal cortex — the part responsible for impulse control, emotional regulation and decision-making — continues developing until the mid-twenties.
             </p>
             <p>
-              LittleCortex uses this reality as a roadmap. We don't just give you "tips"; we give you a biological understanding of why your child is behaving a certain way, and how your response can literally shape their neural pathways.
+              The daily practice of completing tasks before accessing rewards is directly relevant to this development. Little Cortex gives you the confidence to hold the boundary, because you understand why it matters.
             </p>
+            <div className="pt-8 mt-12 border-t border-art-border">
+              <p className="text-[10px] uppercase tracking-[0.2em] text-art-muted italic">A named clinical advisor will be joining the Little Cortex team. Science content will be formally reviewed before launch.</p>
+            </div>
           </div>
           
-          <div className="mt-16 p-12 bg-art-ink/5 border border-art-border relative">
+          <div className="mt-16 p-8 md:p-12 bg-art-ink/5 border border-art-border relative">
             <div className="absolute top-0 right-0 w-12 h-[1px] bg-art-accent" />
-            <Quote className="w-10 h-10 text-art-accent/20 mb-6" />
-            <p className="text-2xl serif-italic text-art-ink mb-8 leading-relaxed">
+            <Quote className="w-8 h-8 md:w-10 md:h-10 text-art-accent/20 mb-6" />
+            <p className="text-xl md:text-2xl serif-italic text-art-ink mb-8 leading-relaxed">
               "Dopamine regulation in children ages 8–12 responds to structured daily reward cycles. LittleCortex translates this complex neurobiology into a simple family ritual."
             </p>
             <div className="flex items-center gap-6">

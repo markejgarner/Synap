@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import TheGap from "./components/TheGap";
 import HowItWorks from "./components/HowItWorks";
 import TheScience from "./components/TheScience";
+import ComparisonSection from "./components/ComparisonSection";
 import Waitlist from "./components/Waitlist";
 import Footer from "./components/Footer";
 
@@ -20,6 +21,7 @@ export default function App() {
         <TheGap />
         <HowItWorks />
         <TheScience />
+        <ComparisonSection />
         <Waitlist />
       </main>
       <Footer />
